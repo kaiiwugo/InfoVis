@@ -2,7 +2,7 @@
   var width = 800,
     height = 600;
 
-  d3.json("./topo.json").then((data) => {
+  d3.json("./Data/topo.json").then((data) => {
     //Load data here
     const topo = topojson.feature(data, data.objects.states);
     console.log(topo);
