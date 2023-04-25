@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>D3 Data Visualization Presentation</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-y: scroll; /* Enable vertical scrolling */
+      scroll-snap-type: y mandatory; /* Enable snapping behavior */
+    }
+
+    /* Define full-page sections */
+    .section {
+      height: 100vh; /* Set section height to viewport height */
+      scroll-snap-align: start; /* Snap sections to the top of the viewport */
+      display: flex; /* Use flexbox for centering content */
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    /* Optional: Add custom styles for each section */
+    #section1 {
+      background-color: #f8d7da;
+    }
+
+    #section2 {
+      background-color: #cce5ff;
+    }
+
+    #section3 {
+      background-color: #d4edda;
+    }
+
+    /* Optional: Add custom styles for navigation */
+    nav {
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding: 1rem;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <section id="section1" class="section">
+    <h2>Section 1</h2>
+    <p>Your content for section 1 goes here</p>
+    <!-- Add your D3 data visualization here -->
+  </section>
+  <section id="section2" class="section">
+    <h2>Section 2</h2>
+    <p>Your content for section 2 goes here</p>
+    <!-- Add your D3 data visualization here -->
+  </section>
+  <section id="section3" class="section">
+    <h2>Section 3</h2>
+    <p>Your content for section 3 goes here</p>
+    <!-- Add your D3 data visualization here -->
+  </section>
+  <!-- Add more sections as needed -->
+
+  <!-- Optional: Add navigation links or buttons to scroll between sections -->
+  <nav>
+    <ul>
+      <li><a href="#section1">Section 1</a></li>
+      <li><a href="#section2">Section 2</a></li>
+      <li><a href="#section3">Section 3</a></li>
+      <!-- Add more links as needed -->
+    </ul>
+  </nav>
+
+  <!-- Optional: Add your own JavaScript file for D3 data visualization code -->
+  <script src="d3.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
