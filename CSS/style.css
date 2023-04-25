@@ -1,0 +1,51 @@
+   body {
+      margin: 0;
+      padding: 0;
+      overflow-y: scroll; /* Enable vertical scrolling */
+      scroll-snap-type: y mandatory; /* Enable snapping behavior */
+    }
+
+    /* Define full-page sections */
+    .section {
+      height: 100vh; /* Set section height to viewport height */
+      scroll-snap-align: start; /* Snap sections to the top of the viewport */
+      display: flex; /* Use flexbox for centering content */
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    /* Optional: Add custom styles for each section */
+    #section1 {
+      background-color: #f8d7da;
+    }
+
+    #chart {
+        width: 100%;
+        text-align: center;
+      }
+
+    #section2 {
+      background-color: white;
+    }
+
+    #section3 {
+      background-color: #d4edda;
+    }
+
+    /* Optional: Add custom styles for navigation */
+    nav {
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding: 1rem;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      margin-bottom: 1rem;
+    }
