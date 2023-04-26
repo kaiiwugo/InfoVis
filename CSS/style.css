@@ -49,3 +49,17 @@
     nav li {
       margin-bottom: 1rem;
     }
+
+    .tooltip {
+      position: absolute;
+      text-align: left;
+      padding: 10px;
+      font-size: 12px;
+      background-color: #CCCCCC;
+      border: 1px solid #ccc;
+      pointer-events: none;
+      opacity: 0;
+      z-index: 999;
+      border-radius: 5%;
+    }
+    
