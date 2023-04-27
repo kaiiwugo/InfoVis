@@ -16,11 +16,15 @@
     }
 
     /* Optional: Add custom styles for each section */
-    #section1 {
+    #Title {
       background-color: #f8d7da;
     }
 
-    #section2 {
+    #Intro {
+      background-color: #d4edda;
+    }
+    
+    #Motivations {
       background-color: #d4edda;
     }
 
