@@ -20,18 +20,48 @@
       background-color: #f8d7da;
     }
 
-    #chart {
-        width: 100%;
-        text-align: center;
-      }
-
     #section2 {
-      background-color: white;
+      background-color: #d4edda;
     }
 
     #section3 {
-      background-color: #d4edda;
+      background-color: white;
     }
+
+    #section4 {
+      background-color: white;
+    }
+
+     #section5 {
+      background-color: white;
+    }
+
+    .active {
+      border: 2px solid black;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      margin-right: 10px;
+    }
+
+    .navText {
+      display: block;
+      margin-bottom: 10px;
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+    }
+    
+    .navText:not(.active) {
+      border-color: black;
+      background-color: white;
+    }
+
+    /* #section6 {
+      background-color: white;
+    }  */
+    
 
     /* Optional: Add custom styles for navigation */
     nav {
@@ -39,6 +69,9 @@
       top: 0;
       right: 0;
       padding: 1rem;
+      background-color: gray;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
     }
 
     nav ul {
@@ -48,6 +81,17 @@
 
     nav li {
       margin-bottom: 1rem;
+    }
+
+    .navText {
+      color: white;
+    }
+
+  
+
+    #chart {
+      width: 100%;
+      text-align: center;
     }
 
     .tooltip {
