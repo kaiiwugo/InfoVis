@@ -13,88 +13,87 @@
   <script src="./JS/geomap.js" defer></script>
   <script src="https://unpkg.com/topojson@3"></script>
   <script src="./JS/CollegeNonCollege.js" defer></script>
-  <script src="./JS/Nav.js" defer></script>
 </head>
 
 <body>
-  <section id="section1" class="section">
+  <section id="title" class="section">
     <h1>College Drug Use</h1>
     <p>By Kai and Cindy</p>
   </section>
 
-  <section id="section2" class="section">
-    <h2> Prevalence of Drug Use Among College Students </h2>
+  <section id="header" class="section">
+    <h2> Is Drug Use at Universities </h2>
+    <h2>A serious Problem?</h2>
+    <h5>Do college campuses create an enviroment that leads to excessive drug and alcohol consumption</h5>
     <br><br><br><br>
     <h3>
-      <ul>
-        <li>Who's taking what?</li>
-        <li>Where is it happening most?</li>
-        <li>What motivates people and how far are they willing to go? </li>
-      </ul>
   </section>
 
-  <section id="section3" class="section">
+  <section id="content" class="section">
+    <h3>These are the drugs typically consumed by college students,</h3>
+    <h3>seems like a lot right?</h3><br><br>
+
     <div>
       <img src="./Sources/prevalence-of-drug-use-i.svg" alt="description of the SVG image" />
     </div>
   </section>
 
-  <section id="section4" class="section">
-    <h2>Prevelence of drug use</h2><br>
-    <h3>College vs Non-College</h3>
+  <section id="content" class="section">
+    <h3> When we examine others in the same age group, <br> we see people are generally doing the same thing...</h3>
+    <br><br>
+
+    <h4>Prevelence of drug use, College vs Non-College</h4>
     <div id="chart"></div>
     <div id="dropdown"></div>
   </section>
-  
-  <section id="section5" class="section">
-    <h2>Prevelence of drug use</h2><br>
-    <h3>Men vs Women</h3>
+
+  <section id="header" class="section">
+    <h2> But surely some schools must promote excessive drug and alcohol use, right? </h2>
   </section>
 
-  <section id="section2" class="section">
-    <h2>By Region</h2><br>
-  </section>
+  <section id="content" class="section">
+    <h3> To gauge how big an issue excessive drug and alcohol use might be,</h3>
+    <h3> lets examine Universities across the US with the most drug/alcohol related arrests</h3>
 
-  <section id="section6" class="section">
-    <h2>Illicit Drug use by state</h2><br>
-  </section>
-
-  <section id="section7" class="section">
-    <h2>On Campus Drug Arrests</h2>
+    <h4>On Campus Drug Arrests</h4>
     <div id="tooltip" class="tooltip"></div>
-    <svg id="geomap" width="1500" height="800"></svg>
+    <svg id="geomap" width="1000" height="600"></svg>
   </section>
 
-  <section id="section8" class="section">
-    <h2> Alcohol related deaths / Binge drinking arrests on campus</h2><br>
+  <section id="content" class="section">
+    <h2> This map appears to show random colleges that are hotspots for drug use but...</h2>
   </section>
 
-  <section id="section2" class="section">
-    <h2> Motivations </h2><br>
+  <section id="content" class="section">
+    <h3>Upon comparing these hotspots with regional patterns, it becomes apparent that drug usage at </h3>
+    <h3>a particular university is often strongly correlated with the norms of the surrounding region. </h3>
+
+    <div style="width: 1000; height: 800;">
+      <img width="1000" src="./Sources/bingeDrinkComparison.png" />
+    </div>
   </section>
 
-  <section id="section9" class="section">
-    <h2> Reasons for starting </h2><br>
+  <section id="header" class="section">
+    <h2> Based on this observation, we might conclude that region is a better predictor of </h2>
+    <h2> drug and alcohol abuse than the university. </h2>
   </section>
 
-  <section id="section10" class="section">
-    <h2> How far will they go </h2><br>
+
+  <section id="content" class="section">
+    <h3>Finally, lets examine deaths from college realted drinking incidents </h3>
+    <img src="./Sources/alcoholDeathsPerYear.png" />
   </section>
 
-  <nav>
-    <ul>
-      <li><a class="navText" href="#section1"></a></li>
-      <li><a class="navText" href="#section2"></a></li>
-      <li><a class="navText" href="#section3"></a></li>
-      <li><a class="navText" href="#section4"></a></li>
-      <li><a class="navText" href="#section5">Section 5</a></li>
-      <li><a class="navText" href="#section6">Section 6</a></li>
-      <li><a class="navText" href="#section7">Section 7</a></li>
-      <li><a class="navText" href="#section8">Section 8</a></li>
-      <li><a class="navText" href="#section9">Section 9</a></li>
-      <li><a class="navText" href="#section10"></a></li>
-    </ul>
-  </nav>
+  <section id="content" class="section">
+    <h3>These numbers may seem high, but in the most deadly year we see a death rate of only 0.003% </h3>
+    <h3>This compared to the general population, which has an anual alcohol related death rate of 0.05% </h3>
+  </section>
+
+  <section id="header" class="section">
+    <h3>Findings </h3>
+    <h3>Age and Region may be stronger predictors of</h3>
+    <h3>an individual's drug and alcohol habits than their enrollment status in college. </h3>
+  </section>
 
 </body>
 

@@ -16,25 +16,25 @@
     }
 
     /* Optional: Add custom styles for each section */
-    #section1 {
+    #title {
       background-color: #f8d7da;
     }
 
-    #section2 {
+    #header {
       background-color: #d4edda;
     }
 
-    #section3 {
+    #content {
       background-color: white;
     }
-
+/* 
     #section4 {
       background-color: white;
     }
 
      #section5 {
       background-color: white;
-    }
+    } */
 
     .active {
       border: 2px solid black;
@@ -47,7 +47,7 @@
     .navText {
       display: block;
       margin-bottom: 10px;
-      border: 2px solid white;
+      border: 1px solid white;
       border-radius: 50%;
       width: 10px;
       height: 10px;
