@@ -16,27 +16,15 @@
     }
 
     /* Optional: Add custom styles for each section */
-    #Title {
+    #title {
       background-color: #f8d7da;
     }
 
-    #Intro {
-      background-color: #d4edda;
-    }
-    
-    #Motivations {
+    #header {
       background-color: #d4edda;
     }
 
-    #section3 {
-      background-color: white;
-    }
-
-    #section4 {
-      background-color: white;
-    }
-
-     #section5 {
+    #content {
       background-color: white;
     }
 
@@ -51,7 +39,7 @@
     .navText {
       display: block;
       margin-bottom: 10px;
-      border: 2px solid white;
+      border: 1px solid white;
       border-radius: 50%;
       width: 10px;
       height: 10px;
@@ -62,12 +50,6 @@
       background-color: white;
     }
 
-    /* #section6 {
-      background-color: white;
-    }  */
-    
-
-    /* Optional: Add custom styles for navigation */
     nav {
       position: fixed;
       top: 0;

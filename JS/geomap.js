@@ -43,7 +43,7 @@
       const svg = d3
         .select("#geomap")
         .append("g")
-        .attr("transform", "translate(300,100)");
+        .attr("transform", "translate(0,0)");
 
       svg
         .append("g")
