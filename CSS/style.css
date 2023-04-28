@@ -27,14 +27,6 @@
     #content {
       background-color: white;
     }
-/* 
-    #section4 {
-      background-color: white;
-    }
-
-     #section5 {
-      background-color: white;
-    } */
 
     .active {
       border: 2px solid black;
@@ -58,12 +50,6 @@
       background-color: white;
     }
 
-    /* #section6 {
-      background-color: white;
-    }  */
-    
-
-    /* Optional: Add custom styles for navigation */
     nav {
       position: fixed;
       top: 0;
