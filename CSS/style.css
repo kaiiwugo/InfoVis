@@ -17,15 +17,23 @@
 
     /* Optional: Add custom styles for each section */
     #title {
-      background-color: #f8d7da;
+      background-color: #FAE7E3;
     }
 
     #header {
-      background-color: #d4edda;
+      background-color: #C3EEFA;
     }
 
     #content {
       background-color: white;
+    }
+
+    #content1 {
+      background-color: white;
+    }
+
+    #content2 {
+      background-color: #FAE7E3;
     }
 
     .active {
